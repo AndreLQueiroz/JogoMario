@@ -1,16 +1,110 @@
-# React + Vite
+# 🍄 MarioVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma experiência interativa inspirada no universo do Mario desenvolvida com React.
 
-Currently, two official plugins are available:
+O projeto mistura landing page temática, animações modernas e um mini game estilo arcade feito com HTML5 Canvas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Sobre o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A ideia inicial era criar apenas uma landing page inspirada no universo do Mario, mas o projeto acabou evoluindo para uma experiência mais interativa com páginas dinâmicas, animações e um mini game completo.
 
-## Expanding the ESLint configuration
+O foco principal foi praticar:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* componentização;
+* lógica de jogo;
+* animações;
+* renderização em tempo real;
+* experiência do usuário no frontend.
+
+---
+
+# ✨ Funcionalidades
+
+## 🎮 Mini Game
+
+* movimentação do personagem;
+* sistema de colisão;
+* moedas coletáveis;
+* inimigos (Goombas);
+* gravidade e física simples;
+* câmera dinâmica;
+* HUD com score e vidas;
+* sistema de vitória e game over.
+
+---
+
+## 🍄 Sistema de personagens
+
+* cartas interativas;
+* animação flip;
+* raridade dos personagens;
+* atributos e habilidades;
+* página individual para cada personagem.
+
+---
+
+## 🎨 Interface
+
+* design inspirado no universo Mario;
+* backgrounds dinâmicos;
+* animações com Framer Motion;
+* UI responsiva;
+* navegação dinâmica.
+
+---
+
+# 🛠️ Tecnologias utilizadas
+
+* React
+* Vite
+* React Router DOM
+* Framer Motion
+* HTML5 Canvas
+* CSS3
+* JavaScript
+
+---
+
+# ⚙️ Como executar o projeto
+
+```bash
+# clonar repositório
+git clone URL_DO_REPOSITORIO
+
+# entrar na pasta
+cd marioverse
+
+# instalar dependências
+npm install
+
+# iniciar projeto
+npm run dev
+```
+
+---
+
+# 📚 Aprendizados
+
+Esse projeto foi importante para praticar:
+
+* gerenciamento de estado;
+* renderização em tempo real;
+* game logic no frontend;
+* manipulação de teclado;
+* animações;
+* componentização;
+* experiência do usuário.
+
+---
+
+# 🚧 Melhorias futuras
+
+* efeitos sonoros;
+* sistema de loading;
+* partículas;
+* power-ups;
+* ranking/localStorage;
+* novos inimigos;
+* fases adicionais.
